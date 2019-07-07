@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DAOTask:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d230e621-c189-4850-9237-fe0754dfcbe8" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#propertiesDemo#0;class#Main#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/DAOMySQLImplementation/StudentDAOMySQLImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1344">
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAOMySQLImplementation/CourseDAOMySQLImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/DAOMySQLImplementation/CourseDAOMySQLImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAOInterface/CourseDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/company/StudentDAO.java" />
+        <option value="$PROJECT_DIR$/src/DBConnectionSingleton.java" />
+        <option value="$PROJECT_DIR$/student.txt" />
+        <option value="$PROJECT_DIR$/src/com/company/db.properties.properties" />
+        <option value="$PROJECT_DIR$/src/com/company/db.properties" />
+        <option value="$PROJECT_DIR$/src/model/Faculty.java" />
+        <option value="$PROJECT_DIR$/src/DAOInterface/FacultyDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/company/StudentDAOMySQLImpl.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/query.properties" />
+        <option value="$PROJECT_DIR$/src/com/company/FacultyDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/company/faculty.properties" />
+        <option value="$PROJECT_DIR$/src/com/company/FacultyDAOMySQLImpl.java" />
+        <option value="$PROJECT_DIR$/src/DAOMySQLImplementation/FacultyDAOMySQLImpl.java" />
+        <option value="$PROJECT_DIR$/src/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/resources/course.properties" />
+        <option value="$PROJECT_DIR$/src/DAOMySQLImplementation/CourseDAOMySQLImpl.java" />
+        <option value="$PROJECT_DIR$/src/resources/section.properties" />
+        <option value="$PROJECT_DIR$/src/DAOMySQLImplementation/SectionDAOMySQLImpl.java" />
+        <option value="$PROJECT_DIR$/src/DAOInterface/CourseDAO.java" />
+        <option value="$PROJECT_DIR$/src/DAOInterface/SectionDAO.java" />
+        <option value="$PROJECT_DIR$/src/model/Registration.java" />
+        <option value="$PROJECT_DIR$/src/DAOInterface/RegistrationDAO.java" />
+        <option value="$PROJECT_DIR$/src/resources/registration.properties" />
+        <option value="$PROJECT_DIR$/src/DAOMySQLImplementation/RegistrationDAOMySQLImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/company/StudentDAOFileImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FileConnectionSingleton.java" />
+        <option value="$PROJECT_DIR$/test/DAOFileImplementation/StudentDAOFileImplTest.java" />
+        <option value="$PROJECT_DIR$/src/model/Section.java" />
+        <option value="$PROJECT_DIR$/src/model/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DBConnectionSingleton.java" />
+        <option value="$PROJECT_DIR$/src/resources_csv/student.csv" />
+        <option value="$PROJECT_DIR$/src/DAOMySQLImplementation/StudentDAOMySQLImpl.java" />
+        <option value="$PROJECT_DIR$/src/DAOFileImplementation/StudentDAOFileImpl.java" />
+        <option value="$PROJECT_DIR$/student.csv" />
+        <option value="$PROJECT_DIR$/test/DAOMySQLImplementation/StudentDAOMySQLImplTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/model/Course.java" />
+        <option value="$PROJECT_DIR$/test/DAOMySQLImplementation/CourseDAOMySQLImplTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="51" />
+    <option name="y" value="25" />
+    <option name="width" value="949" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="DAOTask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/IdeaProjects/DAOTask" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/IdeaProjects/DAOTask" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/IdeaProjects/DAOTask" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/IdeaProjects/DAOTask" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="company" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/IdeaProjects/DAOTask" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="DAOInterface" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/IdeaProjects/DAOTask" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="DAOMySQLImplementation" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/IdeaProjects/DAOTask" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/IdeaProjects/DAOTask" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DAOTask" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DAOTask" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DAOTask" type="616d4139:PackageViewModuleNode" />
+              <item name="com.company" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DAOTask" type="616d4139:PackageViewModuleNode" />
+              <item name="DAOInterface" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DAOTask" type="616d4139:PackageViewModuleNode" />
+              <item name="DAOMySQLImplementation" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DAOFileImplementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DAOInterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DAOMySQLImplementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="DAOFileImplementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="DAOMySQLImplementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources_csv" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="DAOMySQLImplementation" />
+      <recent name="DAOFileImplementation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources_csv" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/com/company" />
+      <recent name="$PROJECT_DIR$/src/com" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="DAOMySQLImplementation" />
+      <recent name="DAOInterface" />
+      <recent name="model" />
+      <recent name="com.company" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CourseDAOMySQLImplTest.getAllTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="DAOTask" />
+      <option name="VM_PARAMETERS" value="-Dusername=sql12296784 -Dpassword=zWgHtHy9Il" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseDAOMySQLImplTest.getAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAOTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAOMySQLImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DAOMySQLImplementation" />
+      <option name="MAIN_CLASS_NAME" value="DAOMySQLImplementation.CourseDAOMySQLImplTest" />
+      <option name="METHOD_NAME" value="getAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDAOMySQLImplTest.deleteAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAOTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAOMySQLImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DAOMySQLImplementation" />
+      <option name="MAIN_CLASS_NAME" value="DAOMySQLImplementation.StudentDAOMySQLImplTest" />
+      <option name="METHOD_NAME" value="deleteAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDAOMySQLImplTest.retrieveAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAOTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAOMySQLImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DAOMySQLImplementation" />
+      <option name="MAIN_CLASS_NAME" value="DAOMySQLImplementation.StudentDAOMySQLImplTest" />
+      <option name="METHOD_NAME" value="retrieveAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDAOMySQLImplTest.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAOTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAOMySQLImplementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DAOMySQLImplementation" />
+      <option name="MAIN_CLASS_NAME" value="DAOMySQLImplementation.StudentDAOMySQLImplTest" />
+      <option name="METHOD_NAME" value="updateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CourseDAOMySQLImplTest.getAllTest" />
+        <item itemvalue="JUnit.StudentDAOMySQLImplTest.retrieveAllTest" />
+        <item itemvalue="JUnit.StudentDAOMySQLImplTest.updateTest" />
+        <item itemvalue="JUnit.StudentDAOMySQLImplTest.deleteAllTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d230e621-c189-4850-9237-fe0754dfcbe8" name="Default Changelist" comment="" />
+      <created>1561740719764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561740719764</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="StudentDAOMySQLImplTest_retrieveAllTest - 2019.07.07 at 21h 35m 40s.xml">
+      <configuration name="StudentDAOMySQLImplTest.retrieveAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDAOMySQLImplTest_retrieveByPredicateTest - 2019.07.07 at 21h 36m 43s.xml">
+      <configuration name="StudentDAOMySQLImplTest.retrieveByPredicateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDAOMySQLImplTest_retrieveByPredicateTest - 2019.07.07 at 21h 37m 35s.xml">
+      <configuration name="StudentDAOMySQLImplTest.retrieveByPredicateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDAOMySQLImplTest_retrieveByPredicateTest - 2019.07.07 at 21h 39m 43s.xml">
+      <configuration name="StudentDAOMySQLImplTest.retrieveByPredicateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDAOMySQLImplTest_retrieveByPredicateTest - 2019.07.07 at 21h 41m 16s.xml">
+      <configuration name="StudentDAOMySQLImplTest.retrieveByPredicateTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDAOMySQLImplTest_deleteByIdTest - 2019.07.07 at 21h 44m 37s.xml">
+      <configuration name="StudentDAOMySQLImplTest.deleteByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDAOMySQLImplTest_deleteAllTest - 2019.07.07 at 21h 46m 56s.xml">
+      <configuration name="StudentDAOMySQLImplTest.deleteAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDAOMySQLImplTest_deleteAllTest - 2019.07.07 at 22h 14m 14s.xml">
+      <configuration name="StudentDAOMySQLImplTest.deleteAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDAOMySQLImplTest_deleteAllTest - 2019.07.07 at 22h 22m 24s.xml">
+      <configuration name="StudentDAOMySQLImplTest.deleteAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDAOMySQLImplTest_updateTest - 2019.07.07 at 22h 25m 26s.xml">
+      <configuration name="StudentDAOMySQLImplTest.updateTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2759188" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="DB Browser" order="5" weight="0.32967636" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972573" weight="0.3286638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002743" side_tool="true" weight="0.3286638" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3297414" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/DBConnectionSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/student.txt" />
+    <entry file="file://$PROJECT_DIR$/src/DAOInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/resources/faculty.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/InputStreamReader.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/Reader.java" />
+    <entry file="file://$PROJECT_DIR$/src/DAOMySQLImplementation/FacultyDAOMySQLImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="78" column="20" selection-start-line="69" selection-start-column="8" selection-end-line="78" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/sql/Statement.java" />
+    <entry file="file://$PROJECT_DIR$/src/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/section.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOInterface/FacultyDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/course.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOInterface/RegistrationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/query.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/registration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="125" selection-start-line="8" selection-start-column="125" selection-end-line="8" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOInterface/SectionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOMySQLImplementation/SectionDAOMySQLImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/StudentDAOFileImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/FileConnectionSingleton.java" />
+    <entry file="file://$PROJECT_DIR$/src/jsonResources/student.json.properties" />
+    <entry file="file://$PROJECT_DIR$/src/student.json" />
+    <entry file="file://$PROJECT_DIR$/student.json" />
+    <entry file="file://$PROJECT_DIR$/src/student.csv" />
+    <entry file="file://$PROJECT_DIR$/products.csv" />
+    <entry file="file://$PROJECT_DIR$/src/DAOInterface/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DAOFileImplementation/StudentDAOFileImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Faculty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1403">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Section.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DBConnectionSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1784#1785#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources_csv/student.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources_csv/student.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources_csv/students.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#propertiesDemo#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOMySQLImplementation/StudentDAOMySQLImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1202">
+          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOFileImplementation/StudentDAOFileImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1753">
+          <caret line="47" column="45" lean-forward="true" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOMySQLImplementation/RegistrationDAOMySQLImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2828">
+          <caret line="101" column="22" lean-forward="true" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOMySQLImplementation/CourseDAOMySQLImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOInterface/CourseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DAOMySQLImplementation/StudentDAOMySQLImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1344">
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DAOMySQLImplementation/CourseDAOMySQLImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>DAOTask:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DAOTask</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-8.0.16</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
