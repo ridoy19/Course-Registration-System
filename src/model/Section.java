@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public class Section {
     private int id;
     private int semester;
@@ -99,5 +101,22 @@ public class Section {
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Section)) return false;
+        Section section = (Section) o;
+        return getId() == section.getId() &&
+                getSemester() == section.getSemester() &&
+                getSectionNumber() == section.getSectionNumber() &&
+                getSeatLimit() == section.getSeatLimit() &&
+                Objects.equals(getRoom(), section.getRoom()) &&
+                Objects.equals(getCourseCode(), section.getCourseCode()) &&
+                Objects.equals(getFacultyInitial(), section.getFacultyInitial());
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId(), getSemester(), getSectionNumber(), getSeatLimit(), getRoom(), getCourseCode(), getFacultyInitial());
+    }
 }

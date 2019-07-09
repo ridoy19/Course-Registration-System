@@ -30,6 +30,7 @@ public class Student {
         this.name = name;
     }
 
+
     @Override
     public String toString() {
         return "Student{" +
@@ -46,7 +47,6 @@ public class Student {
         return Objects.equals(getId(), student.getId()) &&
                 Objects.equals(getName(), student.getName());
     }
-
 
 
     @Override

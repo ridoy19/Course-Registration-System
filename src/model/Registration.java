@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public class Registration {
     private int regId;
     private String studentId;
@@ -101,4 +103,20 @@ public class Registration {
                 '}';
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Registration)) return false;
+        Registration that = (Registration) o;
+        return getRegId() == that.getRegId() &&
+                getSectionId() == that.getSectionId() &&
+                Objects.equals(getStudentId(), that.getStudentId()) &&
+                Objects.equals(getCourseCode(), that.getCourseCode()) &&
+                Objects.equals(getFacultyInitial(), that.getFacultyInitial());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getRegId(), getStudentId(), getCourseCode(), getSectionId(), getFacultyInitial());
+    }
 }

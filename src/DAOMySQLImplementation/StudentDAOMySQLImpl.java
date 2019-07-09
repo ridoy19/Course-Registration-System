@@ -1,5 +1,6 @@
 package DAOMySQLImplementation;
 
+import CustomException.IdValidationException;
 import DAOInterface.StudentDAO;
 import com.company.DBConnectionSingleton;
 import model.Student;
@@ -56,10 +57,14 @@ public class StudentDAOMySQLImpl implements StudentDAO {
     @Override
     public Student create(Student student) {
         try {
+
+            if (student.getId().length() > 13) {
+                throw new IdValidationException("Id must be less than 13 characters");
+            }
             preparedCreateStatement.setString(1,student.getId());
             preparedCreateStatement.setString(2,student.getName());
             preparedCreateStatement.executeUpdate();
-        } catch (SQLException e) {
+        } catch (SQLException | IdValidationException e) {
             e.printStackTrace();
         }
 

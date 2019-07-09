@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public class Course {
     private String code;
     private String title;
@@ -45,5 +47,20 @@ public class Course {
                 ", title='" + title + '\'' +
                 ", credit=" + credit +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Course)) return false;
+        Course course = (Course) o;
+        return Double.compare(course.getCredit(), getCredit()) == 0 &&
+                Objects.equals(getCode(), course.getCode()) &&
+                Objects.equals(getTitle(), course.getTitle());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getCode(), getTitle(), getCredit());
     }
 }

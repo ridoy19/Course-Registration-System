@@ -48,7 +48,6 @@ public class Main {
         studentDAO.create(new Student("2016000000046", "Mark Zuckerburg"));
         studentDAO.create(new Student("2016000000047", "Robert Darwin"));*/
 
-
         // Retrieving a student
         //System.out.println(studentDAO.retrieve("2016000000047"));
 
@@ -72,13 +71,16 @@ public class Main {
         StudentDAO studentDAOFile = new StudentDAOFileImpl();
 
         // Creating Student
-        /*studentDAOFile.create(new Student("2016000000044", "Elon Musk"));
+       /* studentDAOFile.create(new Student("2016000000044", "Elon Musk"));
         studentDAOFile.create(new Student("2016000000045", "Jeff Bezos"));
-        studentDAOFile.create(new Student("2016000000049", "Mark Zuckerburg"));
+        studentDAOFile.create(new Student("2016000000049", "Mark Zuckerberg"));
         studentDAOFile.create(new Student("2016000000047", "Robert Darwin"));
         studentDAOFile.create(new Student("2016000000030", "Jennifer Lawrence"));
-        studentDAOFile.create(new Student("2016000000052", "Salma Hayek"));*/
+        studentDAOFile.create(new Student("2016000000052", "Salma Hayek"));
+        studentDAOFile.create(new Student("2016000000054", "Jason Statham"));*/
 
+        // This student checks id greater than 13 characters
+        //studentDAOFile.create(new Student("20160000000055", "Jahan"));
 
         // Retrieving Student
         //studentDAOFile.retrieve().forEach(System.out::println);
@@ -93,9 +95,11 @@ public class Main {
         //studentDAOFile.deleteAll();
 
         // Deleting a student with id
-        //studentDAOFile.delete("2016000000030");
+        //studentDAOFile.delete("2016000000052");
 
-
+        // Updating a student with id
+        //studentDAOFile.update("2016000000052",new Student("2016000000052","Emma Stone"));
+        //studentDAOFile.update("2016000000052",new Student("2016000000052","Amber Heard"));
 
         FacultyDAO facultyDAOMySQL = new FacultyDAOMySQLImpl();
         /*facultyDAOMySQL.create(new Faculty("KMH","Monirul Hasan","Senior Lecturer"));
