@@ -1,15 +1,15 @@
 # Course-Registration-System
 
 This repository is a home task for *Advanced Java* course. It is a simple console based *Course Registration System*. This system can store data on both *MySQL* or *File* based system.
----
+
 # Technologies Used
 * **Java** (for logic implementation)
 * **MySQL** (for Database Opearation)
 * **JUnit 5** (for method testing)
----
+
 # Database Service Provider
 * [Free Sql Database](https://www.freesqldatabase.com/ "Free Sql Database")
----
+
 # Databse Administrator
 ##### For connecting to database click [phpMyAdmin](http://www.phpmyadmin.co/ "phpMyAdmin")  and provide the ```server address```, ```user name``` and ```password```.
   * *Server Address* ```sql12.freesqldatabase.com```
@@ -20,7 +20,6 @@ This repository is a home task for *Advanced Java* course. It is a simple consol
 * **JDK 1.8** 
 * **mysql-connector-java-8.0.16**
 * **Junit5.3**
----
 
 # Task List (CRUD Operation)
 * [x] CRUD operation MySQL
@@ -35,7 +34,6 @@ This repository is a home task for *Advanced Java* course. It is a simple consol
   * [ ] Faculty
   * [ ] Section
   * [ ] Registration
----
 
 # Task List (Testing)
 * [ ] CRUD operation MySQL Testing

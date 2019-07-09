@@ -19,28 +19,6 @@ public class StudentDAOFileImpl implements StudentDAO {
 
     @Override
     public Student create(Student student) {
-        /*String FILE_HEADER = "id,name";
-        try {
-            FileWriter fileWriter = new FileWriter("student.csv");
-
-            fileWriter.append(FILE_HEADER);
-            fileWriter.append("\n");
-            fileWriter.append(student.getId());
-            fileWriter.append(",");
-            fileWriter.append(student.getName());
-            fileWriter.append("\n");
-
-            fileWriter.flush();
-            fileWriter.close();
-
-            *//*RandomAccessFile randomAccessFile = new RandomAccessFile("student.csv","rw");
-            randomAccessFile.seek(randomAccessFile.length());
-            randomAccessFile.writeBytes(FILE_HEADER);
-            randomAccessFile.writeBytes(student.getId() + "," + student.getName() + "\n");*//*
-        } catch (IOException e) {
-            e.printStackTrace();
-        }*/
-
         try {
 
             RandomAccessFile randomAccessFile = new RandomAccessFile("student.csv", "rw");
@@ -80,9 +58,17 @@ public class StudentDAOFileImpl implements StudentDAO {
             while ((line = br.readLine()) != null) {
                 // use comma as separator
                 String[] splitStd = line.split(cvsSplitBy);
+<<<<<<< HEAD
                 /*String id = line.split(",")[0];
                 String name = line.split(",")[1];*/
                 Student student = new Student(splitStd[0], splitStd[1]);
+=======
+
+                /*String id = line.split(",")[0];
+                String name = line.split(",")[1];*/
+
+                Student student = new Student(splitStd[0],splitStd[1]);
+>>>>>>> 8d3fb333b961c805fbb2f461b5a467b8fb3d4723
                 studentList.add(student);
             }
 
