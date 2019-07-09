@@ -18,28 +18,6 @@ public class StudentDAOFileImpl implements StudentDAO {
 
     @Override
     public Student create(Student student) {
-        /*String FILE_HEADER = "id,name";
-        try {
-            FileWriter fileWriter = new FileWriter("student.csv");
-
-            fileWriter.append(FILE_HEADER);
-            fileWriter.append("\n");
-            fileWriter.append(student.getId());
-            fileWriter.append(",");
-            fileWriter.append(student.getName());
-            fileWriter.append("\n");
-
-            fileWriter.flush();
-            fileWriter.close();
-
-            *//*RandomAccessFile randomAccessFile = new RandomAccessFile("student.csv","rw");
-            randomAccessFile.seek(randomAccessFile.length());
-            randomAccessFile.writeBytes(FILE_HEADER);
-            randomAccessFile.writeBytes(student.getId() + "," + student.getName() + "\n");*//*
-        } catch (IOException e) {
-            e.printStackTrace();
-        }*/
-
         try {
 
             RandomAccessFile randomAccessFile = new RandomAccessFile("student.csv","rw");
@@ -69,12 +47,12 @@ public class StudentDAOFileImpl implements StudentDAO {
             br.readLine(); // This line ignore header for csv
             while ((line = br.readLine()) != null) {
                 // use comma as separator
-                String[] country = line.split(cvsSplitBy);
+                String[] splitStd = line.split(cvsSplitBy);
 
                 /*String id = line.split(",")[0];
                 String name = line.split(",")[1];*/
 
-                Student student = new Student(country[0],country[1]);
+                Student student = new Student(splitStd[0],splitStd[1]);
                 studentList.add(student);
             }
 
@@ -93,9 +71,9 @@ public class StudentDAOFileImpl implements StudentDAO {
             BufferedReader br = new BufferedReader(new FileReader("student.csv"));
             String line;
             while ((line = br.readLine()) != null) {
-                String[] country = line.split(cvsSplitBy);
+                String[] splitStd = line.split(cvsSplitBy);
 
-                Student std = new Student(country[0], country[1]);
+                Student std = new Student(splitStd[0], splitStd[1]);
 
                 if(studentId.equals(std.getId())) {
                     studentList.add(std);
