@@ -1,8 +1,11 @@
 package com.company;
 
+import DAOFileImplementation.CourseDAOFileImpl;
+import DAOFileImplementation.FacultyDAOFileImpl;
 import DAOFileImplementation.StudentDAOFileImpl;
 import DAOInterface.*;
 import DAOMySQLImplementation.*;
+import enumeration.FacultyRank;
 import model.Course;
 import model.Faculty;
 import model.Registration;
@@ -71,13 +74,15 @@ public class Main {
         StudentDAO studentDAOFile = new StudentDAOFileImpl();
 
         // Creating Student
-       /* studentDAOFile.create(new Student("2016000000044", "Elon Musk"));
+        /*studentDAOFile.create(new Student("2016000000044", "Elon Musk"));
         studentDAOFile.create(new Student("2016000000045", "Jeff Bezos"));
         studentDAOFile.create(new Student("2016000000049", "Mark Zuckerberg"));
         studentDAOFile.create(new Student("2016000000047", "Robert Darwin"));
         studentDAOFile.create(new Student("2016000000030", "Jennifer Lawrence"));
         studentDAOFile.create(new Student("2016000000052", "Salma Hayek"));
-        studentDAOFile.create(new Student("2016000000054", "Jason Statham"));*/
+        studentDAOFile.create(new Student("2016000000054", "Jason Statham"));
+        studentDAOFile.create(new Student("2016000000057", "Tom Crusie"));
+        studentDAOFile.create(new Student("2016000000058", "Tom Hiddleston"));*/
 
         // This student checks id greater than 13 characters
         //studentDAOFile.create(new Student("20160000000055", "Jahan"));
@@ -120,6 +125,34 @@ public class Main {
         //facultyDAOMySQL.deleteAll();
 
 
+        // FacultyDAO file implementation
+        FacultyDAO facultyDAOFile = new FacultyDAOFileImpl();
+        /*facultyDAOFile.create(new Faculty("KMH","Monirul Hasan", FacultyRank.SENIOR_LECTURER.toString()));
+        facultyDAOFile.create(new Faculty("SM","Shahriar Manzoor", FacultyRank.ASSOCIATE_PROFESSOR.toString()));
+        facultyDAOFile.create(new Faculty("RAJ","Roksana Akter Jolly", FacultyRank.ASSISTANT_PROFESSOR.toString()));
+        facultyDAOFile.create(new Faculty("RIK","Rezwan Al Islam Khan", FacultyRank.ASSISTANT_PROFESSOR.toString()));
+        facultyDAOFile.create(new Faculty("KIA","Kimia Aksir", FacultyRank.LECTURER.toString()));*/
+
+        // Retrieve all faculties
+        //facultyDAOFile.retrieve().forEach(System.out::println);
+
+        // Retrieve By Initials
+        //System.out.println(facultyDAOFile.retrieve("KMH"));
+
+        // Deleting all faculty
+        //facultyDAOFile.deleteAll();
+
+        // Deleting by Initial
+        //facultyDAOFile.delete("KIA");
+
+        // Retrieving by predicate
+        //facultyDAOFile.retrieve(faculty -> faculty.getInitial().startsWith("R")).forEach(System.out::println);
+
+        // Updating Faculty
+        /*facultyDAOFile.update("SM",FacultyRank.ASSOCIATE_PROFESSOR.toString(),
+                new Faculty("SM","Shahriar Manzoor",FacultyRank.PROFESSOR.toString()));*/
+
+
 
         // For Course DAO
         CourseDAO courseDAOMySQL = new CourseDAOMySQLImpl();
@@ -149,6 +182,33 @@ public class Main {
 
         // Removing all course
         //courseDAOMySQL.removeAllCourse();
+
+
+        CourseDAO courseDAOFile = new CourseDAOFileImpl();
+        /*courseDAOFile.addCourse(new Course("CSE4047","Advanced Java",3.0));
+        courseDAOFile.addCourse(new Course("CSE4048","Advanced Java Lab",1.0));
+        courseDAOFile.addCourse(new Course("CSE2031","Advanced Algorithm",3.0));
+        courseDAOFile.addCourse(new Course("CSE2032","Advanced Algorithm Lab",1.0));
+        courseDAOFile.addCourse(new Course("CSE3015","Operating System",3.0));
+        courseDAOFile.addCourse(new Course("CSE3016","Operating System Lab",1.0));
+        courseDAOFile.addCourse(new Course("CSE4041","Artificial Intelligence",3.0));
+        courseDAOFile.addCourse(new Course("CSE4041","Artificial Intelligence",3.0));*/
+
+        // Retrieving all courses
+        //courseDAOFile.getAll().forEach(System.out::println);
+
+        // Retrieving courses with course code
+        //System.out.println(courseDAOFile.retrieve("CSE3015"));
+
+        // Deleting all courses
+        //courseDAOFile.removeAllCourse();
+
+        // Remove course with course code
+        //courseDAOFile.removeCourse("CSE4047");
+
+        // Updating a course
+        //courseDAOFile.update("CSE3015",new Course("CSE3018","Natural Language Processing",3.0));
+
 
 
         // For Section DAO

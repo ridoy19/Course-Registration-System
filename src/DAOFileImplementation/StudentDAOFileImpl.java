@@ -58,17 +58,10 @@ public class StudentDAOFileImpl implements StudentDAO {
             while ((line = br.readLine()) != null) {
                 // use comma as separator
                 String[] splitStd = line.split(cvsSplitBy);
-<<<<<<< HEAD
                 /*String id = line.split(",")[0];
                 String name = line.split(",")[1];*/
                 Student student = new Student(splitStd[0], splitStd[1]);
-=======
 
-                /*String id = line.split(",")[0];
-                String name = line.split(",")[1];*/
-
-                Student student = new Student(splitStd[0],splitStd[1]);
->>>>>>> 8d3fb333b961c805fbb2f461b5a467b8fb3d4723
                 studentList.add(student);
             }
 

@@ -1,8 +1,11 @@
 package model;
 
+import enumeration.FacultyRank;
+
 import java.util.Objects;
 
 public class Faculty {
+    private final FacultyRank rankType;
     private String initial;
     private String name;
     private String rank;
@@ -11,6 +14,13 @@ public class Faculty {
         this.initial = initial;
         this.name = name;
         this.rank = rank;
+        rankType = null;
+    }
+
+    public Faculty(String initial, String name, FacultyRank rankType) {
+        this.initial = initial;
+        this.name = name;
+        this.rankType = rankType;
     }
 
     public String getInitial() {

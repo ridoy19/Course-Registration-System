@@ -7,27 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d230e621-c189-4850-9237-fe0754dfcbe8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/DAOTask/CustomException/IdValidationException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomException/IdValidationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/DAOTask_jar/DAOTask.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DAOTask_jar/DAOTask.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DAOTask/DAOFileImplementation/StudentDAOFileImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOTask/DAOFileImplementation/StudentDAOFileImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAOTask/DAOMySQLImplementation/StudentDAOMySQLImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOTask/DAOMySQLImplementation/StudentDAOMySQLImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DAOTask/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOTask/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAOTask/model/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOTask/model/Course.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DAOTask/model/Faculty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOTask/model/Faculty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAOTask/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOTask/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAOTask/resources/section.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOTask/resources/section.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/DAOTask/DAOMySQLImplementation/StudentDAOMySQLImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/DAOTask/DAOMySQLImplementation/StudentDAOMySQLImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAOTask/model/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOTask/model/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAOTask/model/Section.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAOTask/model/Section.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DAOFileImplementation/StudentDAOFileImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAOFileImplementation/StudentDAOFileImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAOMySQLImplementation/StudentDAOMySQLImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAOMySQLImplementation/StudentDAOMySQLImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Faculty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Section.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/section.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/section.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student.csv" beforeDir="false" afterPath="$PROJECT_DIR$/student.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DAOMySQLImplementation/StudentDAOMySQLImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DAOMySQLImplementation/StudentDAOMySQLImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
+            <state relative-caret-position="188">
+              <caret line="150" column="27" lean-forward="true" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#propertiesDemo#0;class#Main#0" />
@@ -55,24 +46,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/faculty.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DAOFileImplementation/StudentDAOFileImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/enumeration/FacultyRank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4184#4185#0" expanded="true" />
-                <element signature="e#4217#4218#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="196">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -80,9 +62,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Faculty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="420">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#1361#1362#0" expanded="true" />
                 <element signature="e#1432#1433#0" expanded="true" />
               </folding>
@@ -90,11 +73,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/model/Section.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAOFileImplementation/FacultyDAOFileImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="107" column="56" lean-forward="true" selection-start-line="107" selection-start-column="56" selection-end-line="107" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2673#2674#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAOFileImplementation/CourseDAOFileImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2044">
+              <caret line="57" column="53" lean-forward="true" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,6 +106,7 @@
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -136,7 +136,6 @@
         <option value="$PROJECT_DIR$/src/DAOMySQLImplementation/SectionDAOMySQLImpl.java" />
         <option value="$PROJECT_DIR$/src/DAOInterface/CourseDAO.java" />
         <option value="$PROJECT_DIR$/src/DAOInterface/SectionDAO.java" />
-        <option value="$PROJECT_DIR$/src/model/Registration.java" />
         <option value="$PROJECT_DIR$/src/DAOInterface/RegistrationDAO.java" />
         <option value="$PROJECT_DIR$/src/resources/registration.properties" />
         <option value="$PROJECT_DIR$/src/DAOMySQLImplementation/RegistrationDAOMySQLImpl.java" />
@@ -145,18 +144,24 @@
         <option value="$PROJECT_DIR$/test/DAOFileImplementation/StudentDAOFileImplTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/DBConnectionSingleton.java" />
         <option value="$PROJECT_DIR$/src/resources_csv/student.csv" />
-        <option value="$PROJECT_DIR$/src/model/Course.java" />
         <option value="$PROJECT_DIR$/test/DAOMySQLImplementation/CourseDAOMySQLImplTest.java" />
         <option value="$PROJECT_DIR$/test/DAOMySQLImplementation/StudentDAOMySQLImplTest.java" />
         <option value="$PROJECT_DIR$/src/CustomException/IdValidationException.java" />
         <option value="$PROJECT_DIR$/src/DAOMySQLImplementation/StudentDAOMySQLImpl.java" />
         <option value="$PROJECT_DIR$/src/resources/section.properties" />
-        <option value="$PROJECT_DIR$/src/model/Faculty.java" />
         <option value="$PROJECT_DIR$/src/model/Student.java" />
-        <option value="$PROJECT_DIR$/student.csv" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/DAOFileImplementation/StudentDAOFileImpl.java" />
         <option value="$PROJECT_DIR$/src/model/Section.java" />
+        <option value="$PROJECT_DIR$/src/model/Registration.java" />
+        <option value="$PROJECT_DIR$/src/model/Course.java" />
+        <option value="$PROJECT_DIR$/src/DAOFileImplementation/StudentDAOFileImpl.java" />
+        <option value="$PROJECT_DIR$/student.csv" />
+        <option value="$PROJECT_DIR$/course.csv" />
+        <option value="$PROJECT_DIR$/src/enumeration/FacultyRank.java" />
+        <option value="$PROJECT_DIR$/src/DAOFileImplementation/CourseDAOFileImpl.java" />
+        <option value="$PROJECT_DIR$/src/model/Faculty.java" />
+        <option value="$PROJECT_DIR$/faculty.csv" />
+        <option value="$PROJECT_DIR$/src/DAOFileImplementation/FacultyDAOFileImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
@@ -242,6 +247,18 @@
               <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DAOFileImplementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DAOMySQLImplementation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DAOTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="enumeration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DAOTask" type="b2602c69:ProjectViewProjectNode" />
@@ -480,7 +497,7 @@
     <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28250137" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28579265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,7 +506,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972573" weight="0.32829374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -511,8 +528,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DBConnectionSingleton.java" />
-    <entry file="file://$PROJECT_DIR$/student.txt" />
     <entry file="file://$PROJECT_DIR$/src/DAOInterface.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/InputStreamReader.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/Reader.java" />
@@ -594,7 +609,6 @@
     <entry file="file://$PROJECT_DIR$/src/jsonResources/student.json.properties" />
     <entry file="file://$PROJECT_DIR$/src/student.json" />
     <entry file="file://$PROJECT_DIR$/student.json" />
-    <entry file="file://$PROJECT_DIR$/src/student.csv" />
     <entry file="file://$PROJECT_DIR$/products.csv" />
     <entry file="file://$PROJECT_DIR$/src/DAOInterface/StudentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -610,13 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1403">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -689,24 +696,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/student.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/student.csv" />
     <entry file="file://$PROJECT_DIR$/src/resources/section.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -738,51 +728,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/courses.csv" />
+    <entry file="file://$PROJECT_DIR$/.attach_pid6900" />
+    <entry file="file://$PROJECT_DIR$/.attach_pid7009" />
     <entry file="file://$PROJECT_DIR$/student.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#propertiesDemo#0;class#Main#0" />
-          </folding>
+        <state relative-caret-position="299">
+          <caret line="387" column="18" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DAOFileImplementation/StudentDAOFileImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state relative-caret-position="1092">
+          <caret line="107" column="5" lean-forward="true" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4184#4185#0" expanded="true" />
-            <element signature="e#4217#4218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Section.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="81" column="2" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Faculty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="420">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1361#1362#0" expanded="true" />
             <element signature="e#1432#1433#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Section.java">
+    <entry file="file://$PROJECT_DIR$/src/enumeration/FacultyRank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+        <state relative-caret-position="196">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOFileImplementation/CourseDAOFileImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2044">
+          <caret line="57" column="53" lean-forward="true" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faculty.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAOFileImplementation/FacultyDAOFileImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="107" column="56" lean-forward="true" selection-start-line="107" selection-start-column="56" selection-end-line="107" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2673#2674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="150" column="27" lean-forward="true" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#propertiesDemo#0;class#Main#0" />
+          </folding>
         </state>
       </provider>
     </entry>
