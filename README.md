@@ -30,8 +30,8 @@ This repository is a home task for *Advanced Java* course. It is a simple consol
   * [x] Registration
 * [ ] CRUD operation CSV file
   * [x] Student
-  * [ ] Course
-  * [ ] Faculty
+  * [x] Course
+  * [x] Faculty
   * [ ] Section
   * [ ] Registration
 
